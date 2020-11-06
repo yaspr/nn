@@ -1,0 +1,21 @@
+This is an example of how to write a Python Extention in C.
+
+The YNN_core.c contains the C function definitions, and the YNN.c contains the
+Pyhton interface.
+
+All the methods defines in YNN_methods in the YNN.c file are available from
+Python.
+
+Compilation:
+------------
+
+	# python setup build
+
+
+Running tests:
+--------------
+
+	# cp build/LIBRARY_DIR/LIB.so .
+	# python test.py
+
+See test.py for more info on how to use the extension.
