@@ -3,7 +3,7 @@ This is an example of how to write a Python Extention in C.
 The YNN_core.c contains the C function definitions, and the YNN.c contains the
 Pyhton interface.
 
-All the methods defines in YNN_methods in the YNN.c file are available from
+All the methods defined in YNN_methods in the YNN.c file are available from
 Python.
 
 Compilation:
